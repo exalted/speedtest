@@ -1,3 +1,6 @@
+/output.csv
+/debug.log
+
 ### https://raw.github.com/github/gitignore/534cd09f5fc07155bfdd92f0dc505851b9251b55/Global/OSX.gitignore
 
 .DS_Store
@@ -131,5 +134,3 @@ build/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
-
-
