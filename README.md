@@ -17,5 +17,6 @@ Download [launchd.plist file](https://raw.githubusercontent.com/exalted/speedtes
 ```bash
 mkdir -p ~/Library/LaunchAgents
 ln -s <Download Path>/org.pittle.speedtest.plist ~/Library/LaunchAgents/
+cp output.csv-template output.csv
 launchctl load -w ~/Library/LaunchAgents/org.pittle.speedtest.plist
 ```
