@@ -14,7 +14,7 @@ class SpeedTest
   def export_csv(results)
     results
       .flat_map { |_, v| v }
-      .map { |e| e.gsub('.', ',') }
+      .map { |e| e.tr('.', ',') }
       .join(';')
   end
 
