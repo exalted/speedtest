@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby -wU
 
-require './speedtest.rb'
+require_relative './boot'
+
+require_relative './speedtest'
 
 speedtest = SpeedTest.new
 

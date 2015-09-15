@@ -1,4 +1,4 @@
-require './utils.rb'
+require_relative './utils'
 
 class SpeedTest
   def best_server
