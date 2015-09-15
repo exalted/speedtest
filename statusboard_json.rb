@@ -39,11 +39,11 @@ output = {
       #   'datapoints': ping_datapoints
       # },
       {
-        'title': 'Download',
+        'title': 'Download (Mb/s)',
         'datapoints': down_datapoints
       },
       {
-        'title': 'Upload',
+        'title': 'Upload (Mb/s)',
         'datapoints': up_datapoints
       }
     ]
